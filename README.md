@@ -5,7 +5,7 @@ BiSK-Net integrates **multi-scale kernel interactions**, **enhanced spatial-doma
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 BiSK-Net addresses three long-standing challenges in automated polyp segmentation:
 
