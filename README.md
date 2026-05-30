@@ -18,7 +18,4 @@ HIBI‑Net overcomes these limitations through three novel components:
    Uses upsampled semantic confidence maps as a selective gate to suppress background noise and specular artifacts in shallow encoder features. An SE block and a residual connection further refine the alignment, preserving only task‑relevant spatial details.
 
 3. **Boundary‑Aware Dual Supervision**  
-   A parameter‑free Sobel operator generates edge targets from ground‑truth masks. A composite loss (\( \mathcal{L}_{\text{total}} = \mathcal{L}_{\text{region}} + 0.2\,\mathcal{L}_{\text{boundary}} \)) enforces contour consistency without learnable edge heads or curriculum‑based training.
-
-
-
+   A parameter‑free Sobel operator generates edge targets from ground‑truth masks. A composite loss (`L_total = L_region + 0.2 * L_boundary`) enforces contour consistency without learnable edge heads or curriculum‑based training.
